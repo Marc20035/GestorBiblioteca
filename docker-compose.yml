@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: postgres:16.0
+    environment:
+    - POSTGRES_DB=marcsabaletelopez
+    - POSTGRES_USER=marcsabaletelopez
+    - POSTGRES_PASSWORD=root
+    ports:
+    - 5434:5432
